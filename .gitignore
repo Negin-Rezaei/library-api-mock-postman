@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Newman reports
+newman/
+reports/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets (never commit API keys)
+.env
+*.local.json
